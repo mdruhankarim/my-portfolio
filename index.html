@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="mdruhankarim" />
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta http-equiv="refresh" content="5" />
+    <title>Ruhan Portfolio</title>
+    <!-- fontawesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tiny5&display=swap" rel="stylesheet">
+    <style>
+        body{
+        background-color: #999393;
+        font-family: 'Tiny5', sans-serif;
+    }
+    </style>
+  </head>
+  <body>
+    <!-- section: navbar -->
+    <header>
+      <nav>
+        <ul>
+          <li>
+            <a href="#home">Home</a>
+          </li>
+          <li>
+            <a href="#skill">My skill</a>
+          </li>
+          <li>
+            <a href="#project">My project</a>
+          </li>
+          <li>
+            <a href="#about">About me</a>
+          </li>
+          <li>
+            <a href="#contact">Find me</a>
+          </li>
+          <li>
+            <a href="#location">Location</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- section: Home -->
+      <section id="home">
+        <h1>MD RUHAN KARIM</h1>
+        <p><em>A high school graduated student</em></p>
+        <a href="https://www.facebook.com/mdruhankarim/" target="_blank">
+          <img
+            src="/images/tom expanded with bg.jpg"
+            alt="profile picture"
+            height="200px"
+          />
+          <hr />
+        </a>
+      </section>
+      <section id="skill">
+        <!-- section: Skill -->
+        <h2>Skill</h2>
+        <table border="1" cellpadding="5" cellspacing="0">
+          <tr>
+            <th>Technology</th>
+            <th>Proficiency</th>
+          </tr>
+          <tr>
+            <td>HTML</td>
+            <td rowspan="2">Intermediate</td>
+          </tr>
+          <tr>
+            <td>Css</td>
+          </tr>
+          <tr>
+            <td>JavaScript</td>
+            <td>Beginner</td>
+          </tr>
+        </table>
+        <div>
+          <h3>Skill progress</h3>
+          <div>
+            <label for="html">HTML:</label>
+            <progress id="html" value="50" max="100"></progress>
+          </div>
+          <div>
+            <label for="css">CSS:</label>
+            <progress id="html" value="50" max="100"></progress>
+          </div>
+          <div>
+            <label for="javascript">JavaScript:</label>
+            <progress id="html" value="0" max="100"></progress>
+          </div>
+        </div>
+        <div>
+          <h2>Skill level</h2>
+          <label for="experience"><strong>Experience:</strong></label>
+          <progress id="experience" value="2" max="10">10 year</progress>
+        </div>
+      </section>
+      <section id="project">
+        <!-- section: Project -->
+        <h2>Project</h2>
+        <li>
+          <ol type="1">
+            <li>
+              <a href="https://ruhan-portfolio.onrender.com/"
+                >My another portfolio</a
+              >
+            </li>
+            <li>Graphics Design</li>
+            <li>UI Design</li>
+          </ol>
+        </li>
+        <video
+          src="/videos/The flying car completes first ever inter-city flight (Official Video).mp4"
+          width="320px"
+          controls
+        >
+          Failed to load in your browser.
+        </video>
+      </section>
+      <section id="about">
+        <!-- section: About -->
+        <h2>About</h2>
+        <strong>Study:</strong>Completed Higher Secondary School Certificate
+        (HSC) from <em>Govt. Shah Sultam College, Bogura.</em> in 2023. <br />
+        <strong>Adress:</strong>Bogura Sadar Upazila, Bogura, Bangladesh. <br />
+      </section>
+      <section id="contact">
+        <!-- section: Contact -->
+        <h3>Contact Me</h3>
+        <!-- receive messages via formspree -->
+        <form action="https://formspree.io/f/xrgnnper" method="post">
+          <div>
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" required />
+          </div>
+          <div>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" required />
+          </div>
+          <div>
+            <label for="age">Age:</label>
+            <input
+              type="number"
+              name="age"
+              id="age"
+              min="18"
+              max="55"
+              required
+            />
+          </div>
+          <div>
+            <label for="subject">Subject:</label>
+            <select name="subject" id="subject">
+              <option value="html">HTML</option>
+              <option value="css">CSS</option>
+              <option value="javascript">JavaScript</option>
+            </select>
+          </div>
+          <div>
+            <label for="message">Message:</label>
+            <textarea
+              name="message"
+              id="message"
+              cols="20"
+              rows="10"
+            ></textarea>
+          </div>
+          <button type="submit">Submit</button>
+          <button type="reset">Clear</button>
+        </form>
+      </section>
+      <section id="location">
+        <!-- section: Location -->
+        <ul type="square">
+          <li>
+            <a href="https://facebook.com/mdruhankarim" target="_blank"
+              ><i class="fa-brands fa-facebook"></i>
+               Facebook</a
+            >
+          </li>
+          <li>
+            <a href="https://linkedin.com/in/mdruhankarim" target="_blank"
+              ><i class="fa-brands fa-linkedin"></i>
+               Linkedin</a
+            >
+          </li>
+          <li>
+            <a href="https://github.com/mdruhankarim" target="_blank"> <i class="fa-brands fa-github"></i>
+                GitHub</a>
+          </li>
+          <li>
+            <a href="https://twitter.com/mdruhankarim" target="_blank"
+              > <i class="fa-brands fa-twitter"></i> Twitter</a
+            >
+          </li>
+          <li>
+            <a href="https://t.me/mdruhankarim" target="_blank"><i class="fa-brands fa-telegram"></i> Telegram</a>
+          </li>
+        </ul>
+        <h3>Location</h3>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7239.722361189573!2d89.36552889999999!3d24.868590399999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39fc5508dd0c1f93%3A0x66f30300c383db92!2sAtapara%2C%20Bogura!5e0!3m2!1sen!2sbd!4v1718097863098!5m2!1sen!2sbd"
+          width="300"
+          height="250"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </section>
+    </main>
+    <!-- footer section -->
+    <footer>
+      <p>&copy; RUHAN</p>
+      <p>Developed by a noob &hearts;</p>
+      <a href="tel:01777490727">Call me</a>
+      <a href="mailto:ruhankarim03@gmail.com">Email me</a>
+    </footer>
+  </body>
+</html>
